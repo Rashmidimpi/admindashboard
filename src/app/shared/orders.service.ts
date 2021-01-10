@@ -3,8 +3,8 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
 // Product interface
-export class Customer {
-  name: String;
+export class Product {
+  product_name: String;
   category: String;
   seller: String;
   listed_on: String;
@@ -19,6 +19,10 @@ export class Customer {
 export class OrdersService {
 
   constructor(private http: HttpClient) { }
+
+  getOrderList(): Observable<any> {
+    return this.http.get('http://127.0.0.1:8000/api/orderlist');
+  }
 
   updateStatus(updateId,updateData) {
     console.log('data',updateData);

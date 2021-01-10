@@ -16,8 +16,8 @@ export interface OrdersTableItem {
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: OrdersTableItem[] = [
-  {name: 'a', category: 'Music',seller: 'b', listed_on:'26-1-2021',no_of_people_interested: 1},
-  {name: 'c', category: 'Music',seller: 'd', listed_on:'2-1-2021',no_of_people_interested: 2},
+  // {name: 'a', category: 'Music',seller: 'b', listed_on:'26-1-2021',no_of_people_interested: 1},
+  // {name: 'c', category: 'Music',seller: 'd', listed_on:'2-1-2021',no_of_people_interested: 2},
   
   
 ];
